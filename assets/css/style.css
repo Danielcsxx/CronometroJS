@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(6, 80, 122);
+    --primary-color-dark: rgb(0, 21, 34);
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    max-width: 100%;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/World\ Map.svg);
+    background-position: center;
+    font-family: 'Open sans', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.relogio,
+h1 {
+    font-size: 5rem;
+    margin: 5rem auto;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    font-family: sans-serif;
+    max-width: 50rem;
+    margin: 20rem auto;
+    background: rgba(255, 255, 255, 0.788);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+}
+
+
+button {
+    border-radius: 1rem;
+    background: #003B78;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    height: 5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--primary-color-dark);
+}
+
+button:active {
+    background: black;
+}
+
+.relogio {
+    font-size: 7rem;
+}
+
+.pausado {
+    color: red;
+}
